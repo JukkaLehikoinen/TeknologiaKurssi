@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "client":"npm start",
-    "server":"cd.. && cd teknologia_node && node index.js",
+    "client": "npm start",
+    "server": "cd.. && cd teknologia_node && node index.js",
     "super": "concurrently  \"npm run server\" \"npm run client\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
